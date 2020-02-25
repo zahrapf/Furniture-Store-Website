@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+}
+body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#form {
+    position: absolute;
+    top: -40px;
+    margin: 100px;
+    margin-left: 500px;
+    width: 40%;
+    height: 85%;
+    background-color: rgba(0, 29, 31, 0.5);
+}
+#data {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+input {
+    font-size: 16px;
+    color: white;
+}
+#first-section {
+    margin-top: 30px;
+    flex: 2.5;
+}
+#second-section {
+    flex: 2;
+    margin-bottom: 5px;
+}
+#first-section label {
+    flex: 2;
+    padding: 25px;
+    font-size: 1.2em;
+    font-family: "Abel", sans-serif;
+    color: white;
+}
+#first-section input {
+    background-color: rgba(234, 218, 197, 0.33);
+    border-radius: 10px;
+    padding-left: 100px;
+    margin-left: 100px;
+    width: 250px;
+    height: 20px;
+}
+#second-section label {
+    margin: 300px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-family: "Abel", sans-serif;
+    color: white;
+}
+#second-section textarea {
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    height: 130px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: rgba(234, 218, 197, 0.33);
+}
+#phoned {
+    margin-bottom: 15px;
+}
+#form button {
+    text-decoration: none;
+    background: whitesmoke;
+    margin-top: 5px;
+    margin-left: 440px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1),
+        0 2px 4px 0 rgba(14, 30, 37, 0.12);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.618em;
+    width: 100px;
+    padding: 0.382em 1em;
+    position: absolute;
+    top: 580px;
+}

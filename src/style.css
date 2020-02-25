@@ -1,0 +1,332 @@
+/* Add any CSS you need to this file. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: rgb(0, 29, 31);
+    font-family: "Montserrat", sans-serif;
+}
+#navbar a {
+    position: absolute;
+    left: 1200px;
+    top: 35px;
+    font-size: 0.75em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover {
+    color: rgb(146, 100, 35);
+}
+.sofa_detail p {
+    font-size: 1em;
+    font-family: "Abel", sans-serif;
+    margin-top: 5px;
+    color: black;
+}
+.chandelier_detail p {
+    font-size: 1em;
+    font-family: "Abel", sans-serif;
+    margin-top: 5px;
+    color: black;
+}
+#navbar p {
+    padding: 30px;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+}
+#navbar span {
+    position: absolute;
+    left: 20px;
+}
+header {
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+}
+header img {
+    width: 100%;
+    height: 900px;
+}
+#title {
+    position: absolute;
+    top: 904px;
+    background-color: #001d1f66;
+}
+#title p {
+    padding: 10px;
+    padding-top: 15px;
+    height: 70px;
+    color: whitesmoke;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.6em;
+}
+#first-section {
+    background-color: white;
+    display: flex;
+    height: 1750px;
+}
+.furniture {
+    margin-left: 30px;
+    margin-top: 80px;
+    flex: 5;
+    height: 100%;
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+}
+.furniture:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.show {
+    display: block;
+}
+.sofa_image {
+    width: 300px;
+    height: 200px;
+}
+.sofa_image img {
+    width: 300px;
+    height: 200px;
+}
+.sofa_detail {
+    margin: 30px;
+    font-size: 1.2em;
+    font-family: "Abel", sans-serif;
+    color: black;
+}
+#sidebar {
+    flex: 0.8;
+    box-shadow: 0px 10px 8px 10px rgb(0, 29, 31, 0.4);
+    text-decoration: none;
+}
+#myListContainer {
+    padding-top: 100px;
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#myListContainer button {
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rgb(0, 29, 31);
+    background-color: white;
+    border: 0;
+    outline: none;
+}
+#myListContainer a:hover {
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: rgb(146, 100, 35);
+}
+#join button {
+    background: whitesmoke;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.95rem;
+    line-height: 1em;
+    width: 70px;
+}
+#myListContainer button:hover {
+    font-weight: bold;
+    color: rgb(146, 100, 35);
+    border: none;
+    outline: none;
+}
+#sofa-second {
+    margin-bottom: 50px;
+    height: 700px;
+    width: 100%;
+}
+.chandelier_img img {
+    padding: 0;
+    width: 300px;
+    height: 200px;
+}
+#sofa-second img {
+    height: 700px;
+    width: 100%;
+}
+#second-section {
+    height: 920px;
+}
+.chandelier {
+    height: 100%;
+    width: 100%;
+}
+.chandelier_holder {
+    background-color: rgb(245, 240, 240, 0.1);
+    position: relative;
+    margin: 30px;
+    margin-left: 100px;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+}
+.chandelier_image {
+    width: 300px;
+    height: 200px;
+}
+.chandelier_detail {
+    margin: 30px;
+    font-size: 1.2em;
+    font-family: "Abel", sans-serif;
+    color: black;
+}
+.button {
+    text-decoration: none;
+    background: whitesmoke;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1),
+        0 2px 4px 0 rgba(14, 30, 37, 0.12);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.618em;
+    width: 100px;
+    outline: 0;
+    padding: 0.382em 1em;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+.button:hover {
+    color: rgb(146, 100, 35);
+    font-weight: bold;
+}
+#third_section {
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+#third_section img {
+    width: 100%;
+    height: 600px;
+}
+#third_section p {
+    position: absolute;
+    top: 4640px;
+    left: 60px;
+    font-size: 2.5em;
+    z-index: 200;
+    color: white;
+}
+#third_section span {
+    margin-top: 20px;
+    position: absolute;
+    top: 4680px;
+    left: 75px;
+    font-size: 1.5em;
+    z-index: 200;
+    color: white;
+}
+.button_design {
+    position: absolute;
+    top: 4800px;
+    left: 260px;
+    text-decoration: none;
+    background: whitesmoke;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1),
+        0 2px 4px 0 rgba(14, 30, 37, 0.12);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.618em;
+    width: 160px;
+    outline: 0;
+    padding: 0.382em 1em;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+.button_design:hover {
+    font-weight: bold;
+}
+#footer {
+    padding-top: 40px;
+    display: flex;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.1em;
+    background-color: white;
+    height: 220px;
+}
+#footer div {
+    flex: 1.5;
+    text-decoration: none;
+}
+#footer div#Z {
+    flex: 1;
+    padding-left: 60px;
+}
+#footer div.info {
+    flex: 1.5;
+    text-decoration: none;
+}
+#footer a:hover {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+#zara-family {
+    display: flex;
+    flex-direction: column;
+}
+#zara-family div {
+    flex: 1;
+}
+#zara-family #form {
+    flex: 4;
+}
+#join input {
+    border-radius: 8px;
+}
+#join button:hover {
+    font-weight: bold;
+}
+#rights {
+    position: absolute;
+    top: 5240px;
+    left: 1150px;
+    font-size: 0.8em;
+    color: rgb(92, 89, 89);
+}
